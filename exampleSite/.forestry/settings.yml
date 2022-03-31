@@ -8,41 +8,41 @@ sections:
   path: exampleSite/data/aboutSection.yml
   label: About
 - type: document
-  path: data/hero.yml
+  path: exampleSite/data/hero.yml
   label: Hero
 - type: document
-  path: data/serviceSection.yml
+  path: exampleSite/data/serviceSection.yml
   label: Services
 - type: document
-  path: data/resumeSection.yml
+  path: exampleSite/data/resumeSection.yml
   label: Resume
 - type: document
-  path: data/skillSection.yml
+  path: exampleSite/data/skillSection.yml
   label: Skills
 - type: document
-  path: data/testimonialSection.yml
+  path: exampleSite/data/testimonialSection.yml
   label: Testimonials
 - type: document
-  path: data/blogSection.yml
+  path: exampleSite/data/blogSection.yml
   label: Blog Section
 - type: directory
-  path: content/portfolio
+  path: exampleSite/content/portfolio
   label: Portfolio
   create: all
   match: "**/*"
 - type: directory
-  path: content/contact
+  path: exampleSite/content/contact
   label: Contact
   create: all
   match: "**/*"
 - type: directory
-  path: content/blog
+  path: exampleSite/content/blog
   label: Blog
   create: all
   match: "**/*"
 - type: document
-  path: config.toml
-  label: Config File
+  path: exampleSite/config.toml
+  label: Config
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
