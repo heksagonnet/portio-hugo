@@ -5,7 +5,7 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: document
-  path: data/aboutSection.yml
+  path: exampleSite/data/aboutSection.yml
   label: About
 - type: document
   path: data/hero.yml
